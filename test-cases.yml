@@ -34,7 +34,7 @@ test-data: |
     empty
   steps:
     - Выбрать цену от 500 до 10000
-  expected-result: |
+expected-result: |
     Отображаются товары в выбранном диапазоне цены
 
 - summary: |
