@@ -51,7 +51,7 @@ test-cases:
 bugreports:
     - summary: |
         Не работает поиск товара по ключевому слову
-    environment: |
+      environment: |
         Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
         ОС Windows 7
       steps-to-reproduce: |
