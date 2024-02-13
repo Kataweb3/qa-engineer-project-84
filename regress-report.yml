@@ -72,4 +72,16 @@ test-cases:
         Успешное переключение страниц каталога
       status: pass
 
-bugreports: []
+bugreports: 
+  - summary: |
+      Пропадает кнопка переключения страниц
+    environment: |
+      Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
+      ОС Windows 7
+    steps-to-reproduce: |
+      1. Нажать "Категория"
+      2. Выбрать пустую строку
+    expected-result: |
+      Кнопка переключения страниц на месте
+    actual-result: |
+      Пропала кнопка переключения страниц 
